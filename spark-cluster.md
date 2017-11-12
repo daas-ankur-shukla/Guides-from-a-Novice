@@ -27,8 +27,16 @@ Hence I write this blog for novices like me to `Setup a 2-machine Apache Spark c
     b. *change to root user*: `su -`
 
 4. Configure `password less SSH` on both machines. This is crucial for both your Master and Slave nodes to be able to talk to each other. You might want to look up this [tutorial](https://www.google.com/url?hl=en-GB&q=https://medium.com/@luck/setup-passwordless-ssh-on-ubuntu-16-04-7ac81592fee6&source=gmail&ust=1510572674575000&usg=AFQjCNEU5Linm9tvZID-7wMjruzECz7YbQ) for this step. Apply the following steps on **both** machines:
-  1. *install open-ssh server*: `apt-get install openssh-server`
-  2. *generate ssh key*: `ssh-keygen -t rsa -P ""`
-  3. *create an authorized_keys file and copy the key into it*: `cat ./.ssh/id_rsa.pub >> ./.ssh/authorized_keys`
-  4. *read and write permissions to the authorized_keys file*: `chmod 600 ~/.ssh/authorized_keys`
-  5. 
+    1. *install open-ssh server*: `apt-get install openssh-server`
+    
+    
+    2. *generate ssh key*: `ssh-keygen -t rsa -P ""`
+    
+    
+    3. *create an authorized_keys file and copy the key into it*: `cat ./.ssh/id_rsa.pub >> ./.ssh/authorized_keys`
+    
+    
+    4. *read and write permissions to the authorized_keys file*: `chmod 600 ~/.ssh/authorized_keys`
+    
+    
+    5. 
