@@ -23,8 +23,8 @@ Hence I write this blog for novices like me to `Setup a 2-machine Apache Spark c
 1. Create a virtual machine using VirtualBox with Ubuntu (I chose 16.04 because that version is officially supported for Ambari server also) - might want to refer [this Q&A](https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox) .
 2. Configure your virtual machine's networking mode to `Bridged Adapter`. This is an **important** step. It had me stuck for a while. This option in VirtualBox allows your virtual machine to have its own IP address and enable you to make password less SSH to them. This [stackExchange question](https://superuser.com/questions/119732/how-to-do-networking-between-virtual-machines-in-virtualbox) introduced me to the networking modes and finally I learned about them on [VirtualBox Networking Guide](http://www.virtualbox.org/manual/ch06.html#network_bridged).
 3. After setting up your Ubuntu machines, the first step to do in my opinion is `create a root password` and continue all steps from here onwards with root user.
-  1. *create root password*: `sudo passwd root`
-  2. *change to root user*: `su -`
+    a. *create root password*: `sudo passwd root`
+    b. *change to root user*: `su -`
 
 4. Configure `password less SSH` on both machines. This is crucial for both your Master and Slave nodes to be able to talk to each other. You might want to look up this [tutorial](https://www.google.com/url?hl=en-GB&q=https://medium.com/@luck/setup-passwordless-ssh-on-ubuntu-16-04-7ac81592fee6&source=gmail&ust=1510572674575000&usg=AFQjCNEU5Linm9tvZID-7wMjruzECz7YbQ) for this step. Apply the following steps on **both** machines:
   1. *install open-ssh server*: `apt-get install openssh-server`
