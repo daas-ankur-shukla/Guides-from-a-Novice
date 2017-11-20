@@ -51,7 +51,7 @@ Hence I write this blog for novices like me to `Setup a 2-machine Apache Spark c
 6. Download and keep the relevant hadoop zip directory to provide its path in the next step.
 7. Install and configure Apache Spark on Ubuntu. Perform the following steps on both the machines:
 
-  1. Download relevant version of Apache Spark from [Spark Downloads](www.spark.apache.org/downloads) .
+  1. Download relevant version of Apache Spark from [Spark Downloads](https://spark.apache.org/downloads.html) .
   2. Chose the relevant spark and hadoop versions and download the tar file from the given link.
   3. Move the zip file at place of your choice. I extracted it in root. Example path of Spark: */root/spark-2.2.0-bin-hadoop2.7*
   4. *Extract zip file*: `tar -zxvf spark-2.2.0-bin-hadoop2.7`
