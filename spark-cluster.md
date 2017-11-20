@@ -2,7 +2,7 @@
 ## Ubuntu Guest (VirtualBox) on a Windows host
 
 Lately I took up a project which required a sample 2-machine spark cluster. Having two laptops at my hostel room, inspired me to set it up myself.
-Setting up a cluster on Windows seemed unlikely, although I had found a blog on that too (Ref:). The path I chose was to set it up on Ubuntu installed as VirtualBox guests on two Windows machines.
+Setting up a cluster on Windows seemed unlikely, although I had found a blog on that too. The path I chose was to set it up on Ubuntu installed as VirtualBox guests on two Windows machines.
 
 Being a novice that I am, I had little idea about how to setup a cluster. The little I knew came from my experience at a consulting giant where I had worked in a project which involved setting up a 2-machine Hadoop cluster.
 
@@ -51,7 +51,7 @@ Hence I write this blog for novices like me to `Setup a 2-machine Apache Spark c
 6. Download and keep the relevant hadoop zip directory to provide its path in the next step.
 7. Install and configure Apache Spark on Ubuntu. Perform the following steps on both the machines:
 
-  1. Download relevant version of Apache Spark from [Spark Downlads](www.spark.apache.org/downloads).
+  1. Download relevant version of Apache Spark from [Spark Downloads](www.spark.apache.org/downloads) .
   2. Chose the relevant spark and hadoop versions and download the tar file from the given link.
   3. Move the zip file at place of your choice. I extracted it in root. Example path of Spark: */root/spark-2.2.0-bin-hadoop2.7*
   4. *Extract zip file*: `tar -zxvf spark-2.2.0-bin-hadoop2.7`
