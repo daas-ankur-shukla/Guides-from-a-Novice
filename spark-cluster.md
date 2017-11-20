@@ -105,4 +105,4 @@ Hence I write this blog for novices like me to `Setup a 2-machine Apache Spark c
 
 I hope this tutorial has provided you with a comfortable setup process for the given use case. I shall try to improve the guide from time to time.
 
-Please send me your suggestions if any on **work.ankurshukla@gmail.com**
+Please feel free to create [Issues](https://github.com/daas-ankur-shukla/Guides-from-a-Novice/issues) on this repositories if you have any doubts regarding the contents of this blog or you find any errors or mistakes or write me at **work.ankurshukla@gmail.com**
